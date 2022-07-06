@@ -1,0 +1,39 @@
+body{
+font-family: sans-serif;
+font-size:larger;
+background-image:url('../images/pt.jpg');
+background-size:cover;
+background-repeat:no-repeat;
+background-attachment:fixed;
+}
+td{
+padding:10px
+}
+table{
+background-color: white;
+border-radius:5px;
+}
+#btn{
+background-color:skyblue;
+width:100%;
+border:10px;
+border-radius:7px;
+padding: 10px 22px;
+color:white;
+font-size: 16px;
+cursor: pointer;
+}
+#btn:hover{
+background-color: #2680c9
+}
+input[type=number]{
+padding:8px 8px;
+border: 1px solid #ccc;
+border-radius:4px;
+margin:8px 0px;
+}
+h1,p{
+ background-color:white;
+ padding:5px;
+ border-radius:5px;
+}

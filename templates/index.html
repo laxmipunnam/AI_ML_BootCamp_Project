@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>campus_placement_dataset</title>
+     <link rel="stylesheet" href="../static/CSS/style.css">
+</head>>
+
+<body>
+<center>
+     <h1 style="">🌸Campus Placement Prediction🌸</h1>
+<form action="./predict" method="POST">
+     <table>
+          <tr>
+               <td>
+                    <label for="Quants">Quants</label>
+               </td>
+               <td>:</td>
+               <td>
+                    <input type="text" name="Quants" placeholder="Enter the marks in Quants"/>
+               </td>
+          </tr>
+          <tr>
+               <td>
+                    <label for="LogicalReasoning">LogicalReasoning</label>
+               </td>
+               <td>:</td>
+               <td>
+                    <input type="text" name="LogicalReasoning" placeholder="Enter the marks in LogicalReasoning"/>
+               </td>
+          </tr>
+         <tr>
+               <td>
+                    <label for="Verable">Verable</label>
+               </td>
+               <td>:</td>
+               <td>
+                    <input type="text" name="Verable" placeholder="Enter the marks in Verable"/>
+               </td>
+          </tr>
+         <tr>
+               <td>
+                    <label for="Programming">Programming</label>
+               </td>
+               <td>:</td>
+               <td>
+                    <input type="text" name="Programming" placeholder="Enter the marks in Programming"/>
+               </td>
+          </tr>
+         <tr>
+               <td>
+                    <label for="CGPA">CGPA</label>
+               </td>
+               <td>:</td>
+               <td>
+                    <input type="text" name="CGPA" placeholder="Enter the CGPA"/>
+               </td>
+          </tr>
+          <tr>
+               <td>
+                    <label for="Networking">Networking</label>
+               </td>
+               <td>:</td>
+               <td>
+                    <input type="text" name="Networking" placeholder="Enter the marks in Networking"/>
+               </td>
+          </tr>
+          <tr>
+               <td>
+                    <label for="CloudCamp">CloudCamp</label>
+               </td>
+               <td>:</td>
+               <td>
+                    <input type="text" name="CloudCamp" placeholder="Enter the marks in CouldCamp"/>
+               </td>
+          </tr>
+          <tr>
+               <td>
+                    <label for="WebServices">WebServices</label>
+               </td>
+               <td>:</td>
+               <td>
+                    <input type="text" name="WebServices" placeholder="Enter the marks in WebServices"/>
+               </td>
+          </tr>
+           <tr>
+               <td>
+                    <label for="DataAnalysis">DataAnalysis</label>
+               </td>
+               <td>:</td>
+               <td>
+                    <input type="text" name="DataAnalysis" placeholder="Enter the marks in DataAnalysis"/>
+               </td>
+          </tr>
+          <tr>
+               <td>
+                    <label for="QualityAssurance">Qualityassurance</label>
+               </td>
+               <td>:</td>
+               <td>
+                    <input type="text" name="QualityAssurance" placeholder="Enter the marks in QualityAssurance"/>
+               </td>
+          </tr>
+          <tr>
+               <td>
+                    <label for="AI">AI</label>
+               </td>
+               <td>:</td>
+               <td>
+                    <input type="text" name="AI" placeholder="Enter the marks in AI"/>
+               </td>
+          </tr>
+          <tr>
+
+               <td colspan="3">
+                    <input id="btn" type="submit" value="predict" />
+               </td>
+          </tr>
+     </table>
+     <p>Prediction : {{pred}}</p>
+</form>
+</center>
+</body>
+
+</html>>
